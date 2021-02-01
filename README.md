@@ -1,7 +1,7 @@
 Static Prop Combine Wizard
 =====
 
-![alt text](https://i.imgur.com/PpVHFNj.png)
+![alt text](https://i.imgur.com/PpVHFNj.png "UI")
 
 ## About
 This tool aims to simplify and partially automate the process of setting up static prop combine (SPC) for Counter-Strike Global Offensive.
@@ -57,4 +57,5 @@ The SPC wizard serves as a GUI for creating and editing the spcombinerules.txt a
 * Press **browse** and browse to your **../Counter-Strike Global Offensive/csgo** folder
 
 You should now see this:
-![alt text](https://imgur.com/a/yVnOrzQ)
+![alt text](https://i.imgur.com/bK3tCTF.png "UI")
+ 
