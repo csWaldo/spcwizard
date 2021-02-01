@@ -11,7 +11,11 @@ The wizard allows to you to easily generate or edit rules for SPC and will autom
 
 ## Setting up Static Prop Combine
 ### Models & Model Source Files
-In order to create the combined models SPC needs access to the models source files.
+In order to create the combined models SPC needs access to the models source files. The source files have the following limitations:
+* only the first $body is recognized
+* $model is not recognized
+* $appendsource and $addconvexsrc are not recognized
+* You can only use $upaxis Z or Y.
 
 **IMPORTANT:** SPC will only look for model source files inside **../steamapps/common/content/csgo**
 
