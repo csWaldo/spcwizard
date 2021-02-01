@@ -60,12 +60,11 @@ You should now see this:
 ![alt text](https://i.imgur.com/bK3tCTF.png "UI")
 
 #### Use
-##### Rules
-You can now add and remove rules with the respective buttons.
+You can
+* add and remove rules with the respecive buttons
+* load rules from a spcombinerules.txt
 
-You can load rules from any text file that follows the spcombinerules.txt's format. This will clear your current rules.
+   this will discard your current rules
+* save rules to a spcombinerules.txt
 
-You can save your current rules to a spcombinerules.txt file. You can give this any name but SPC will only read the file called *spcombinerules.txt*. Saving a rule file will also generate / overwrite all .qc stubs for those rules.
-
-##### Rule Settings
-You can change a rules settings by selecting it in the rule list
+   this will also generate all neccessary .qc stubs
