@@ -82,3 +82,10 @@ The stub .qc settings are populated by the first model you add to a rule but you
 When you are happy with your rules, press save to write a spcombinerules.txt and all its associated stub .qcs.
 You can give the rule file any name but SPC will **only** read the file called **spcombinerules.txt**.
 It might also be a good idea to keep a backup of your rule file as it may get overwritten when the game updates.
+
+### Running Static Prop Combine
+Add **-staticpropcombine** to **vbsp.exe** to enable SPC. The combined models will automatically be packed into the compiled .bsp.
+
+You can add more parameters to change how SPC behaves. Here you can read more about them and SPC in general:
+* https://developer.valvesoftware.com/wiki/Static_Prop_Combine
+* https://www.mapcore.org/articles/tutorials/static-prop-combine-in-csgo-r111/
