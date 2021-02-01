@@ -37,7 +37,7 @@ distance limit | max. distance between models to be combined (origin to origin, 
 peers | list of models that can combined with each other
 stub .qc| path to the stub .qc used to compile the combined model
 
-### .qc stubs
+### stub .qcs
 Used by SPC to compile the combined model.
 
 Each rule has its own stub .qc which **may** contain:
@@ -49,7 +49,7 @@ $surfaceprop | surface property for the combined model
 $texturegroup | list of skins used by the combined model
 
 ### Static Prop Combine Wizard
-The SPC wizard serves as a GUI for creating and editing the spcombinerules.txt as well as the .qc stubs.
+The SPC wizard serves as a GUI for creating and editing the spcombinerules.txt as well as the stub .qcs.
 
 #### Install & Setup
 * Download & unpack the repository
@@ -60,13 +60,13 @@ You should now see this:
 ![alt text](https://i.imgur.com/bK3tCTF.png "UI")
 
 #### Use
-* add and remove rules with the respecive buttons
+* add and remove rules with the respective buttons
 * load rules from a spcombinerules.txt
 
    this will discard your current rules
 * save rules to a spcombinerules.txt
 
-   this will also generate all neccessary .qc stubs
+   this will also generate all neccessary stub .qcs
 
 Selecting a rule will reveil its properties:
 ![alt text](https://i.imgur.com/iqWZ9HH.png "UI")
@@ -76,3 +76,9 @@ The left side shows the rule and its settings. The right side shows the associat
 Add models to the rule by clicking *Add* and selecting one or multiple .qc files from your model source files in **content/csgo**.
 
 The stub .qc settings are populated by the first model you add to a rule but you can also edit them manually.
+
+---
+
+When you are happy with your rules, press save to write a spcombinerules.txt and all its associated stub .qcs.
+You can give the rule file any name but SPC will **only** read the file called **spcombinerules.txt**.
+It might also be a good idea to keep a backup of your rule file as it may get overwritten when the game updates.
