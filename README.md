@@ -27,7 +27,7 @@ If you are using an addon such as SourceOps or WallWorm I would recommend settin
 ### spcombinerules.txt
 This file is located in ../csgo/scripts/hammer/spcombinerules and may contain any number of rules used by SPC to combine models.
 
-Each rule represents a set of combineable models and contains:
+Each rule represents a set of combineable models and has a:
 
 key | use
 --- | ---
