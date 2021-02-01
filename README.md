@@ -60,7 +60,6 @@ You should now see this:
 ![alt text](https://i.imgur.com/bK3tCTF.png "UI")
 
 #### Use
-You can
 * add and remove rules with the respecive buttons
 * load rules from a spcombinerules.txt
 
