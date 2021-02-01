@@ -68,3 +68,12 @@ You can
 * save rules to a spcombinerules.txt
 
    this will also generate all neccessary .qc stubs
+
+Selecting a rule will reveil its properties:
+![alt text](https://i.imgur.com/iqWZ9HH.png "UI")
+At the top you can see and edit the selected rules name.
+The left side shows the rule and its settings. The right side shows the associated stub .qc and its settings.
+
+Add models to the rule by clicking *Add* and selecting one or multiple .qc files from your model source files in **content/csgo**.
+
+The stub .qc settings are populated by the first model you add to a rule but you can also edit them manually.
